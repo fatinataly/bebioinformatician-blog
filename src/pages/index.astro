@@ -2,13 +2,13 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { SITE_DESCRIPTION} from '../consts';
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead description={SITE_DESCRIPTION} />
 	</head>
 	<body>
 		<Header />
@@ -18,12 +18,14 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 			BeBioinformatician is my personal bridge between curiosity and capability: a practical blog about building the skills to become a bioinformatician.
 			</p>
 			<p>
-			It grew out of my own journey — learning by doing, making mistakes, and gradually turning tools, theory, and real projects into confidence.
+			It grew out of my own journey, learning by doing, making mistakes, and gradually turning tools, theory, and real projects into confidence.
 </p>
 			
 			<p>
 			Here you’ll find posts, notes, and project write-ups on bioinformatics, data science in healthcare, multi-omics, and AI in cancer research — always with a hands-on, reproducible mindset.
 			</p>
+			<!-- Imagen -->
+			<img src="/src/assets/work_progress.jpg" alt="BeBioinformatician Logo" style="max-width:100%; height:auto;" />
 			<p style="font-size: 1.2rem; font-weight: 600;">
 			🚧 🛠️ This website is currently under construction 🏗️ 🚀  
 			Big things are coming soon! 🔬💻🧬✨
